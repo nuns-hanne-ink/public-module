@@ -4,8 +4,8 @@ function mastdon($data)
 	$accessToken = ''; // あなた自身のアクセストークン
 	$data = [
 		'status' => $data['value1'],
-		'visibility' => 'public', // public => 世界中に private => ホームのフォロワーへ
-	];
+		'visibility' => 'public', 
+	]; // public => 世界中に private => ホームのフォロワーへ
 
 	$jsonData = json_encode($data);
 
