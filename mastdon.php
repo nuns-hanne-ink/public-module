@@ -31,3 +31,5 @@ function mastdon($data)
 		return false;
 	}
 }
+
+mastdon(["value1" => "送信するテキスト"];
