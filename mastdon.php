@@ -32,4 +32,4 @@ function mastdon($data)
 	}
 }
 
-mastdon(["value1" => "送信するテキスト"];
+mastdon(["value1" => "送信するテキスト"]);
